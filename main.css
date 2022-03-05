@@ -1,14 +1,18 @@
-#main-box {
-    width: 99%;
-    height: 99%;
-    background-color: red;
-    margin: auto;
-}
 #outer-box {
     width: 75%;
     height: 75%;
-    background-color: rgb(94, 45, 45);
+    background-color: rgb(124, 124, 124);
     margin: auto;
     margin-top: 10%;
     padding-top: 0.5%;
+}
+#main-box {
+    width: 75%;
+    height: 75%;
+    background-image: url("./back.jpg");
+    border: 1px solid rgb(100, 100, 100);
+    box-shadow: 3px 3px 3px black;
+    border-radius: 3px;
+    background-size: cover;
+    margin: auto;
 }
