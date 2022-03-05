@@ -1,7 +1,14 @@
 #main-box {
-    width: 75%;
-    height: 75%;
+    width: 99%;
+    height: 99%;
     background-color: red;
     margin: auto;
-    margin-top: 12.5%;
+}
+#outer-box {
+    width: 75%;
+    height: 75%;
+    background-color: rgb(94, 45, 45);
+    margin: auto;
+    margin-top: 10%;
+    padding-top: 0.5%;
 }
