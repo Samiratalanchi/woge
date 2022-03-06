@@ -1,6 +1,6 @@
 #main-box {
-    width: 350px;
-    height: 75%;
+    width: 500px;
+    height: 470px;
     background-image: url("./back.jpg");
     border: 1px solid rgb(100, 100, 100);
     box-shadow: 3px 3px 3px black;
@@ -11,17 +11,18 @@
 }
 #world-box {
     margin-left: 25px;
-    margin-top: 25px;
+    margin-top: 15px;
+    border-spacing:0 3px;
 }
 #keyboard-box {
-    margin-top: 25px;
+    margin-top: 15px;
     margin-left: 25px;
 }
 .letters {
     width: 50px;
     height: 50px;
     background-color: white;
-    box-shadow: inset 2px 2px 2px rgb(59, 59, 59);
+    box-shadow: inset 4px 4px 4px rgb(59, 59, 59);
     border: 1px solid rgb(168, 166, 166);
     font-size: 26px;
     text-align: center;
@@ -29,6 +30,7 @@
     vertical-align: middle;
 }
 .alphabet-letters {
+    box-shadow: -2px -2px 2px rgb(59, 59, 59);
     width: 20px;
     height: 20px;
     background-color: white;
@@ -38,14 +40,21 @@
     display: table-cell;
     vertical-align: middle;
 }
+#alphabets1,#alphabets2, #alphabets3, #alphabets4 {
+    border-spacing:0px 0px;
+}
+#alphabets1 {
+    margin-left: 15px;
+}
 #alphabets2, #alphabets3, #alphabets4 {
-    margin-left: 13px;
+    margin-left: 28px;
 }
 
 #delete-letter {
-    width: 50px;
+    width: 44px;
+    height: 24px;
 }
 #enter-letter {
     background-color: greenyellow;
-    width: 260px;
+    width: 212px;
 }
