@@ -116,3 +116,12 @@ function deletekey() {
     j--;
     document.getElementById("b"+i+"letter"+j).innerHTML="";  
 }
+function addEnter() {
+    i++;
+    j=1;
+    document.getElementById("b"+i+"letter1").style.background="white";
+    document.getElementById("b"+i+"letter2").style.background="white";
+    document.getElementById("b"+i+"letter3").style.background="white";
+    document.getElementById("b"+i+"letter4").style.background="white";
+    document.getElementById("b"+i+"letter5").style.background="white";
+}
