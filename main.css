@@ -39,6 +39,7 @@
     text-align: center;
     display: table-cell;
     vertical-align: middle;
+    cursor: pointer;
 }
 #alphabets1,#alphabets2, #alphabets3, #alphabets4 {
     border-spacing:0px 0px;
