@@ -113,8 +113,10 @@ function addM() {
     j++;
 }
 function deletekey() {
-    j--;
-    document.getElementById("b"+i+"letter"+j).innerHTML="";  
+    if(j>=1 || j<=5) {
+        j--;
+        document.getElementById("b"+i+"letter"+j).innerHTML="";   
+    }
 }
 function addEnter() {
     i++;
