@@ -112,3 +112,7 @@ function addM() {
     document.getElementById("b"+i+"letter"+j).innerHTML="M";
     j++;
 }
+function deletekey() {
+    j--;
+    document.getElementById("b"+i+"letter"+j).innerHTML="";  
+}
