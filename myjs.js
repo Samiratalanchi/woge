@@ -151,14 +151,27 @@ function deletekey() {
     }
 }
 function addEnter() {
-    document.getElementById("b"+i+"letter"+j).style.color="black";
-    i++;
-    j=1;
-    document.getElementById("b"+i+"letter1").style.background="white";
-    document.getElementById("b"+i+"letter2").style.background="white";
-    document.getElementById("b"+i+"letter3").style.background="white";
-    document.getElementById("b"+i+"letter4").style.background="white";
-    document.getElementById("b"+i+"letter5").style.background="white";
+    console.log(j);
+    var s=0;
+    var d=1;
+    for( d=1;d<=5;d++) {
+        if(document.getElementById("b"+i+"letter"+d).innerHTML=="") {
+            s=1;
+        }
+        else {
+            document.getElementById("b"+i+"letter"+d).style.color="black";
+        }
+    }
+    console.log(s);
+    if(s==0) {
+        i++;
+        j=1;
+        document.getElementById("b"+i+"letter1").style.background="white";
+        document.getElementById("b"+i+"letter2").style.background="white";
+        document.getElementById("b"+i+"letter3").style.background="white";
+        document.getElementById("b"+i+"letter4").style.background="white";
+        document.getElementById("b"+i+"letter5").style.background="white";
+    }
 }
 function  jEqual1() {
     j=1;
