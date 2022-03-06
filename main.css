@@ -38,18 +38,14 @@
     display: table-cell;
     vertical-align: middle;
 }
-#alphabets2 {
+#alphabets2, #alphabets3, #alphabets4 {
     margin-left: 13px;
 }
-#alphabets3 {
-    margin-left: 43px;
-}
-#alphabets4 {
-    margin-left: 35px;
-}
+
 #delete-letter {
-    width: 40px;
+    width: 50px;
 }
 #enter-letter {
-    width: 170px;
+    background-color: greenyellow;
+    width: 260px;
 }
